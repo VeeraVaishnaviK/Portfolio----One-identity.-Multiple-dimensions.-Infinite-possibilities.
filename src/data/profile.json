@@ -1,0 +1,30 @@
+{
+  "name": "Veera Vaishnavi K",
+  "displayName": "VEE",
+  "roleHeadline": "Founding Software Engineer",
+  "rotatingRoles": [
+    "Full-Stack Developer",
+    "AI Engineer",
+    "Researcher",
+    "Community Leader"
+  ],
+  "shortIntro": "I architect AI-powered products, ship them to production, and publish research.",
+  "bio": "I'm Veera Vaishnavi K (VEE), a Computer Science (Artificial Intelligence) student at Saveetha School of Engineering with a 9.22 CGPA. I build scalable microservices, explore medical AI diagnostics, and lead campus developer communities.",
+  "location": "Chennai, Tamil Nadu, India",
+  "email": "vaishureddy26096@gmail.com",
+  "phone": "+91-6383929687",
+  "github": "https://github.com/VeeraVaishnaviK",
+  "linkedin": "https://www.linkedin.com/in/veera-vaishnavi/",
+  "education": {
+    "degree": "B.E. Computer Science (Artificial Intelligence)",
+    "institution": "Saveetha School of Engineering, Chennai",
+    "cgpa": "9.22 / 10",
+    "graduation": "Expected May 2028",
+    "coursework": ["Data Structures & Algorithms", "Object-Oriented Programming", "DBMS", "Operating Systems"]
+  },
+  "resumePath": "/Veera_Vaishnavi_K_Resume.pdf",
+  "profilePhoto": "/images/veera-profile.jpg",
+  "idCardNumber": "VEE-2028",
+  "issuedYear": "2024"
+}
+

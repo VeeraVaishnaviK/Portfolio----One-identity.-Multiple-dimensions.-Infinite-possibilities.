@@ -1,0 +1,253 @@
+[
+  {
+    "number": 1,
+    "symbol": "Py",
+    "name": "Python",
+    "category": "Languages",
+    "group": "lang",
+    "description": "Core language for machine learning pipelines, FastAPI microservices, and bio-medical model inference.",
+    "usedIn": ["Lin's InfoTech", "Nexacro", "Parkinson's IEEE Paper"],
+    "level": "Advanced Core"
+  },
+  {
+    "number": 2,
+    "symbol": "Ts",
+    "name": "TypeScript",
+    "category": "Languages",
+    "group": "lang",
+    "description": "Strict type-safety across full-stack applications, contract-driven APIs, and Next.js interfaces.",
+    "usedIn": ["Lin's InfoTech", "Apex Engineering", "Vee's Studio"],
+    "level": "Production Fluent"
+  },
+  {
+    "number": 3,
+    "symbol": "Js",
+    "name": "JavaScript",
+    "category": "Languages",
+    "group": "lang",
+    "description": "Dynamic DOM manipulation, asynchronous event loops, and client-side web applications.",
+    "usedIn": ["Laundex", "TutorMatch"],
+    "level": "Core Language"
+  },
+  {
+    "number": 4,
+    "symbol": "Jv",
+    "name": "Java",
+    "category": "Languages",
+    "group": "lang",
+    "description": "Object-oriented programming, data structures, and foundational algorithm problem solving.",
+    "usedIn": ["Academic Research", "Saveetha Engineering"],
+    "level": "Coursework & DSA"
+  },
+  {
+    "number": 5,
+    "symbol": "C",
+    "name": "C",
+    "category": "Languages",
+    "group": "lang",
+    "description": "Low-level memory management, pointers, and systems programming principles.",
+    "usedIn": ["Operating Systems Labs"],
+    "level": "Systems Baseline"
+  },
+  {
+    "number": 6,
+    "symbol": "Sq",
+    "name": "SQL",
+    "category": "Languages",
+    "group": "lang",
+    "description": "Relational schema design, normalization, joins, and ACID transactional queries.",
+    "usedIn": ["DBMS", "Lin's InfoTech Auth"],
+    "level": "Relational Expert"
+  },
+  {
+    "number": 7,
+    "symbol": "Re",
+    "name": "React",
+    "category": "Frontend",
+    "group": "front",
+    "description": "Component-driven architecture, custom hooks, reactive state machines, and performant virtual DOM rendering.",
+    "usedIn": ["Apex Engineering", "Nexacro", "Laundex", "TutorMatch"],
+    "level": "Production Expert"
+  },
+  {
+    "number": 8,
+    "symbol": "Nx",
+    "name": "Next.js",
+    "category": "Frontend",
+    "group": "front",
+    "description": "App Router, 62 static edge routes, selective React hydration, dynamic XML sitemaps, and server-side metadata.",
+    "usedIn": ["Apex Engineering", "Lin's InfoTech Frontend"],
+    "level": "Production Lead"
+  },
+  {
+    "number": 9,
+    "symbol": "Tw",
+    "name": "Tailwind",
+    "category": "Frontend",
+    "group": "front",
+    "description": "Utility-first design tokens, responsive breakpoints, micro-interactions, and dark mode palette theming.",
+    "usedIn": ["Apex Engineering", "Lin's InfoTech", "Vee's Studio"],
+    "level": "Design System Fluent"
+  },
+  {
+    "number": 10,
+    "symbol": "Ht",
+    "name": "HTML5",
+    "category": "Frontend",
+    "group": "front",
+    "description": "Semantic document structures, accessibility landmarks (ARIA), and SEO schema.",
+    "usedIn": ["All Web Systems"],
+    "level": "Standard Compliant"
+  },
+  {
+    "number": 11,
+    "symbol": "Cs",
+    "name": "CSS3",
+    "category": "Frontend",
+    "group": "front",
+    "description": "3D perspective transforms, backface visibility, fluid clamp typography, and keyframe animations.",
+    "usedIn": ["Vee's Studio Doors", "ID Card Flip"],
+    "level": "Advanced Styling"
+  },
+  {
+    "number": 12,
+    "symbol": "No",
+    "name": "Node.js",
+    "category": "Backend",
+    "group": "back",
+    "description": "Non-blocking event-driven backend runtimes, microservices, and RESTful routing engines.",
+    "usedIn": ["Lin's InfoTech Gateway", "TutorMatch", "Laundex"],
+    "level": "Production Backend"
+  },
+  {
+    "number": 13,
+    "symbol": "Ex",
+    "name": "Express",
+    "category": "Backend",
+    "group": "back",
+    "description": "API Gateway pattern, Helmet security headers, scoped CORS policies, and rate-limiting proxies.",
+    "usedIn": ["Lin's InfoTech", "TutorMatch"],
+    "level": "Security Hardened"
+  },
+  {
+    "number": 14,
+    "symbol": "Fa",
+    "name": "FastAPI",
+    "category": "Backend",
+    "group": "back",
+    "description": "Asynchronous Python microservices for high-concurrency LLM streaming and computer vision inference.",
+    "usedIn": ["Lin's InfoTech AI Engine"],
+    "level": "High Performance"
+  },
+  {
+    "number": 15,
+    "symbol": "Ms",
+    "name": "Microservices",
+    "category": "Backend",
+    "group": "back",
+    "description": "Three-layer decoupled architecture separating client, gateway, and isolated AI compute runtimes.",
+    "usedIn": ["Lin's InfoTech Platform"],
+    "level": "Architectural Design"
+  },
+  {
+    "number": 16,
+    "symbol": "Mo",
+    "name": "MongoDB",
+    "category": "Databases",
+    "group": "db",
+    "description": "Document schema persistence, indexing strategies, flexible aggregation pipelines, and JSON storage.",
+    "usedIn": ["Lin's InfoTech", "Nexacro", "Laundex", "TutorMatch"],
+    "level": "Document Store Core"
+  },
+  {
+    "number": 17,
+    "symbol": "Mg",
+    "name": "Mongoose",
+    "category": "Databases",
+    "group": "db",
+    "description": "Schema validation, session handling, authentication models, and lead capture CRUD workflows.",
+    "usedIn": ["Lin's InfoTech", "Laundex"],
+    "level": "Production ODM"
+  },
+  {
+    "number": 18,
+    "symbol": "Mn",
+    "name": "MobileNet",
+    "category": "AI/ML",
+    "group": "ai",
+    "description": "Deep convolutional spatial feature extraction from spiral sketches with minimal computational latency.",
+    "usedIn": ["IEEE Conference Paper ICFTS 2025"],
+    "level": "Over 92% Accuracy"
+  },
+  {
+    "number": 19,
+    "symbol": "Kn",
+    "name": "KNN",
+    "category": "AI/ML",
+    "group": "ai",
+    "description": "Non-parametric distance-metric classifier distinguishing kinematic motor tremor deviations.",
+    "usedIn": ["Parkinson's Disease Screening"],
+    "level": "Supervised Learning"
+  },
+  {
+    "number": 20,
+    "symbol": "Lc",
+    "name": "LangChain",
+    "category": "AI/ML",
+    "group": "ai",
+    "description": "Prompt orchestration, streaming LLM chat chains, token buffers, and asynchronous document generators.",
+    "usedIn": ["Lin's InfoTech Streaming Bot"],
+    "level": "LLM Orchestration"
+  },
+  {
+    "number": 21,
+    "symbol": "Ge",
+    "name": "Gemini",
+    "category": "AI/ML",
+    "group": "ai",
+    "description": "Multi-modal model integration, streaming completions, and context-augmented enterprise agents.",
+    "usedIn": ["Lin's InfoTech AI Service"],
+    "level": "Google Cloud Partner"
+  },
+  {
+    "number": 22,
+    "symbol": "Gc",
+    "name": "GCP",
+    "category": "Cloud",
+    "group": "cloud",
+    "description": "Cloud hosting, compute orchestration, containerized services, and developer workshop delivery.",
+    "usedIn": ["GDG SIMATS Workshops"],
+    "level": "Community Speaker"
+  },
+  {
+    "number": 23,
+    "symbol": "Vc",
+    "name": "Vercel",
+    "category": "Cloud",
+    "group": "cloud",
+    "description": "Global edge deployment, automated CI/CD pipelines, preview environments, and serverless compute.",
+    "usedIn": ["Apex Engineering", "Lin's InfoTech", "Vee's Studio"],
+    "level": "Edge Delivery Lead"
+  },
+  {
+    "number": 24,
+    "symbol": "Gi",
+    "name": "Git",
+    "category": "Cloud",
+    "group": "cloud",
+    "description": "Branching workflows, version control, merge resolution, and collaborative repo governance.",
+    "usedIn": ["All Repositories"],
+    "level": "Git Master"
+  },
+  {
+    "number": 25,
+    "symbol": "An",
+    "name": "Android Studio",
+    "category": "Cloud",
+    "group": "cloud",
+    "description": "Android client engineering connected to unified Python backends for laboratory medical diagnostics.",
+    "usedIn": ["Nexacro Android Client"],
+    "level": "Native Client Dev"
+  }
+]
+

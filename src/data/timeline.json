@@ -1,0 +1,77 @@
+[
+  {
+    "year": 2026,
+    "subtitle": "Current Trajectory & Innovation Leadership",
+    "entries": [
+      {
+        "month": "Mar 2026 – Present",
+        "title": "Innovative Student Ambassador",
+        "organization": "Institution's Innovation Council (IIC)",
+        "badge": "Ambassador",
+        "description": "Championing institutional innovation frameworks, startup culture, and technology transfer initiatives across campus."
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "subtitle": "Research Breakthroughs, Leadership & Hackathons",
+    "entries": [
+      {
+        "month": "2025",
+        "title": "IEEE Conference Publication (ICFTS 2025)",
+        "organization": "Published in IEEE Xplore",
+        "badge": "Research Paper",
+        "description": "Parkinson's disease screening from spiral hand sketches using MobileNet with KNN classification, achieving over 92% screening accuracy."
+      },
+      {
+        "month": "2025 – Present",
+        "title": "Vice President",
+        "organization": "Google Developer Group (GDG) On Campus SIMATS",
+        "badge": "Leadership",
+        "description": "Ran hands-on technical workshops on Google Cloud Platform, Flutter, and TensorFlow; mentored student developer cohorts."
+      },
+      {
+        "month": "2025 – Present",
+        "title": "Research and Innovation Lead",
+        "organization": "Hackathon Club SIMATS",
+        "badge": "Mentorship",
+        "description": "Formulated real-world industry problem statements for campus hackathons and guided student teams through rapid MVP builds."
+      },
+      {
+        "month": "2025",
+        "title": "1st Prize — 12-Hour Hackathon",
+        "organization": "Campus Innovation Challenge",
+        "badge": "1st Prize",
+        "description": "Built TutorMatch, a real-time tutor–student matching and course enrollment platform (React, Node.js, MongoDB)."
+      },
+      {
+        "month": "2025",
+        "title": "3rd Prize — 24-Hour Hackathon",
+        "organization": "National Hackathon",
+        "badge": "3rd Prize",
+        "description": "Engineered automated fake-news detection web application integrating external NLP classification APIs (Node.js, MongoDB)."
+      },
+      {
+        "month": "2025",
+        "title": "Torch Bearer Award & Best Poster Award",
+        "organization": "SIMATS University & Tech Star Summit",
+        "badge": "Honors",
+        "description": "Awarded Torch Bearer Honors for distinguished 9.22 CGPA and campus tech contributions; Best Poster at Tech Star Summit."
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "subtitle": "Foundational Startup Architecture",
+    "entries": [
+      {
+        "month": "Dec 2024 – Present",
+        "title": "Founding Software Engineer",
+        "organization": "Lin's InfoTech (AI Solutions Startup)",
+        "badge": "Founding Role",
+        "description": "Architected the company platform as a three-layer microservices application separating Next.js client, Express REST API gateway, and isolated Python/FastAPI AI engine."
+      }
+    ]
+  }
+]
+

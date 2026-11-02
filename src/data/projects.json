@@ -1,0 +1,95 @@
+[
+  {
+    "id": "lins-infotech",
+    "title": "Lin's InfoTech Platform",
+    "subtitle": "Founding Software Engineer",
+    "category": "Enterprise Microservices",
+    "tagline": "Three-layer decoupled microservices platform with isolated FastAPI AI compute and Express gateway.",
+    "description": "Architected and shipped the company platform separating a Next.js client, a Node.js/Express REST API, and an isolated Python/FastAPI service. Implemented an Express API gateway that authenticates and proxies AI requests, keeping LLM credentials off public surfaces.",
+    "problemSolved": "Monolithic architecture exposed sensitive AI model keys to frontend bundles and suffered from deployment coupling across client and heavy Python libraries.",
+    "highlights": [
+      "Three-layer decoupled microservices application (Next.js, Express, FastAPI, MongoDB)",
+      "Express API gateway with Helmet, scoped CORS, and request rate limiting",
+      "LangChain + Google Gemini streaming chatbot and async document generation",
+      "End-to-end Vercel production ownership and dynamic XML sitemap/metadata"
+    ],
+    "technologies": ["Next.js", "TypeScript", "Node.js", "Express.js", "Python", "FastAPI", "MongoDB", "LangChain", "Gemini API", "Vercel"],
+    "liveUrl": "https://linsinfotech.in",
+    "metric": "3-Layer Microservices",
+    "accentColor": "#7FA283"
+  },
+  {
+    "id": "apex-engineering",
+    "title": "Apex Engineering",
+    "subtitle": "Production B2B Web Platform",
+    "category": "High-Performance Web",
+    "tagline": "62 statically generated routes served from Vercel's edge with selective client-side React hydration.",
+    "description": "A production-oriented engineering website built with a focus on performance, SEO, and scalable content architecture. Serves 62 statically generated routes from Vercel's global edge network to minimize time to first byte.",
+    "problemSolved": "Client-side bundle bloat was depressing search visibility and slowing down mobile quotation access across regional industrial markets.",
+    "highlights": [
+      "Engineered 62 statically generated routes including dynamic product and blog routes",
+      "Optimized client-side JavaScript by hydrating React only where components are interactive",
+      "Server-side metadata generation, automated canonical URLs, and dynamic XML sitemap",
+      "Reusable client-side filter over 20+ FAQ records with zero lag"
+    ],
+    "technologies": ["Next.js App Router", "React", "TypeScript", "Vercel Edge", "Tailwind CSS"],
+    "liveUrl": "https://apexengineering.org.in",
+    "metric": "62 Static Routes",
+    "accentColor": "#2F4B8F"
+  },
+  {
+    "id": "nexacro",
+    "title": "Nexacro",
+    "subtitle": "AI Acrosome Analysis Platform",
+    "category": "Medical Computer Vision",
+    "tagline": "Machine learning classification system distinguishing acrosome-intact from damaged sperm cells.",
+    "description": "Developed an AI-assisted biomedical application for analyzing acrosome integrity from microscope images, automating a manual laboratory assessment. Built web and Android clients against a shared Python backend so a single analysis service supports both platforms simultaneously.",
+    "problemSolved": "Manual laboratory assessment of sperm cell acrosome intactness was slow, labor-intensive, and prone to subjective analytical variance.",
+    "highlights": [
+      "Machine learning classification distinguishing acrosome-intact from damaged sperm cells",
+      "Automates labor-intensive manual laboratory microscopy assessments",
+      "Single shared Python backend supporting both web and Android native clients",
+      "Image preprocessing and feature extraction handling microscopic lighting variations"
+    ],
+    "technologies": ["Python", "React.js", "MongoDB", "Android Studio", "Computer Vision ML"],
+    "liveUrl": "https://nexacro.in",
+    "metric": "Dual Web & Android",
+    "accentColor": "#C8663A"
+  },
+  {
+    "id": "laundex",
+    "title": "Laundex",
+    "subtitle": "Hostel Laundry Management",
+    "category": "Full-Stack Logistics",
+    "tagline": "Full-stack booking and order-tracking system for campus hostel laundry operations.",
+    "description": "Designed and shipped a full-stack booking and order-tracking system for hostel laundry operations with a responsive mobile-first UI. Eliminates lost clothing and queue congestion through transparent status tracking.",
+    "problemSolved": "Lost tokens, uncoordinated batching, and lack of pickup notifications led to lost garments and long queues in campus hostels.",
+    "highlights": [
+      "Full-stack booking and order-tracking system with responsive mobile-first UI",
+      "Lifecycle state machine tracking pickup, washing, drying, and ready-for-delivery",
+      "Student slot management and automated digital laundry receipt generation"
+    ],
+    "technologies": ["React", "JavaScript", "MongoDB", "Node.js", "Tailwind CSS"],
+    "liveUrl": "https://laundex.in",
+    "metric": "Mobile-First UX",
+    "accentColor": "#6B6A85"
+  },
+  {
+    "id": "tutormatch",
+    "title": "TutorMatch",
+    "subtitle": "1st Prize 12-Hour Hackathon Winner",
+    "category": "Real-Time Web Application",
+    "tagline": "Tutor–student matching platform featuring live peer chat and dynamic course enrollment.",
+    "description": "Engineered under intensive 12-hour hackathon conditions to solve peer mentorship bottlenecks on university campuses. Built real-time socket chat, skill matching filters, and rapid course enrollment with React, Node.js, and MongoDB.",
+    "problemSolved": "Connecting qualified student tutors with struggling peers during exam seasons lacked structured real-time communication.",
+    "highlights": [
+      "Awarded 1st Prize across intensive 12-Hour competitive hackathon",
+      "Real-time instant chat and tutor–student matchmaking algorithm",
+      "Fast course enrollment database schemas and slot reservations"
+    ],
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+    "metric": "1st Prize Winner",
+    "accentColor": "#C9A24B"
+  }
+]
+
