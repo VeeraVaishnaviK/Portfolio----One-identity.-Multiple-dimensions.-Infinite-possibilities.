@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@theme {
+  --color-warm-bg: #F5F1E9;
+  --color-primary-charcoal: #171717;
+  --color-dark-cinematic: #101116;
+  --color-dark-surface: #171821;
+  --color-dark-card: #1f212d;
+  --color-accent-violet: #9275FF;
+  --color-light-violet: #D9CEFF;
+  --color-gold-accent: #C7A66A;
+  --color-gold-light: #DFCA9B;
+  --color-muted-text: #8E8E93;
+  --color-divider-line: #2A2C38;
+  --color-editorial-divider: #DED9D0;
+
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-editorial: 'Playfair Display', Georgia, serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #101116;
+  color: #F5F1E9;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-editorial {
+  font-family: var(--font-editorial);
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101116;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2C38;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9275FF;
+}
+
+/* 3D Transform Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Glassmorphism Styles */
+.glass-panel {
+  background: rgba(23, 24, 33, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(146, 117, 255, 0.15);
+}
+
+.glass-panel-gold {
+  background: rgba(23, 24, 33, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(199, 166, 106, 0.25);
+}
+
+.glass-panel-light {
+  background: rgba(245, 241, 233, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(222, 217, 208, 0.8);
+}
+
+/* Hologram Shimmer Animation */
+@keyframes hologram {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.hologram-shimmer {
+  background: linear-gradient(
+    135deg,
+    rgba(146, 117, 255, 0.1) 0%,
+    rgba(199, 166, 106, 0.15) 35%,
+    rgba(59, 130, 246, 0.1) 70%,
+    rgba(146, 117, 255, 0.1) 100%
+  );
+  background-size: 200% 200%;
+  animation: hologram 8s ease infinite;
+}
+
+/* Reduced Motion Safety */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
