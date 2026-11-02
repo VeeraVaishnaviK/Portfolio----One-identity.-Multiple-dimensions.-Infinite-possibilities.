@@ -77,3 +77,4 @@ export function VeeFallback({ isSpeaking }: { isSpeaking: boolean }) {
     </div>
   );
 }
+

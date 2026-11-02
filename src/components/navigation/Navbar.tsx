@@ -196,3 +196,4 @@ export function Navbar({ soundEnabled, onToggleSound, onPlayClick, activeSection
     </>
   );
 }
+

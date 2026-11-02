@@ -30,3 +30,4 @@ export function BackToTop({ onPlayClick }: { onPlayClick: () => void }) {
     </button>
   );
 }
+
