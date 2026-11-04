@@ -14,7 +14,6 @@ export function InteractiveLamp() {
   // Pull physics state
   const [pullY, setPullY] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
-  // Sway and spring physics added in polish
   const [swayAngle, setSwayAngle] = useState(0);
   const [hasEntered, setHasEntered] = useState(false);
   const [isAnimatingSpring, setIsAnimatingSpring] = useState(false);
