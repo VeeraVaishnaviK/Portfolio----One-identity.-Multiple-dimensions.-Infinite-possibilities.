@@ -9,7 +9,7 @@ export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
-  const [userInteracted, setUserInteracted] = useState(false); // Video interaction state
+  const [userInteracted, setUserInteracted] = useState(false);
 
   // Video autoplay & sound handling
   useEffect(() => {
