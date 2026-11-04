@@ -143,8 +143,6 @@ export function InteractiveDoors() {
   const [hoveredDoorId, setHoveredDoorId] = useState<string | null>(null);
   const [selectedDoorId, setSelectedDoorId] = useState<string>("projects");
   const [openedDoorId, setOpenedDoorId] = useState<string | null>(null);
-  const [cordPulled, setCordPulled] = useState(false);
-  const [ambientLight, setAmbientLight] = useState(false);
   const [showBackButton, setShowBackButton] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
 
@@ -197,13 +195,6 @@ export function InteractiveDoors() {
     }, 500);
   };
 
-  // Pull cord interactive toggle
-  const handlePullCord = () => {
-    setCordPulled(true);
-    setAmbientLight((prev) => !prev);
-    setTimeout(() => setCordPulled(false), 600);
-  };
-
   // Handle "Back to the doors" click
   const handleBackToDoors = () => {
     setOpenedDoorId(null);
@@ -218,56 +209,6 @@ export function InteractiveDoors() {
         aria-label="Interactive Doors — Explore My World"
         className="relative pt-24 pb-0 overflow-hidden bg-[var(--paper)] text-[var(--ink)] transition-colors duration-500 select-none"
       >
-        {/* ========================================================= */}
-        {/* HANGING CEILING LIGHT PULL CORD (TOP RIGHT)               */}
-        {/* Matches reference video exactly                           */}
-        {/* ========================================================= */}
-        <div
-          onClick={handlePullCord}
-          role="button"
-          tabIndex={0}
-          aria-label="Pull lamp cord to toggle room light"
-          className="hidden sm:flex absolute right-6 md:right-16 lg:right-24 top-0 z-30 cursor-pointer group flex-col items-center select-none"
-        >
-          {/* Ceiling mount fixture */}
-          <div className="w-3.5 h-1.5 bg-gradient-to-r from-stone-400 via-stone-300 to-stone-400 dark:from-stone-600 dark:via-stone-500 dark:to-stone-600 rounded-b shadow-sm" />
-
-          {/* Hanging twisted rope/cord */}
-          <div
-            className={`w-[2px] h-32 md:h-44 bg-gradient-to-b from-stone-400/80 via-stone-400/60 to-stone-500 dark:from-stone-600 dark:to-stone-400 transition-transform duration-500 origin-top ${
-              cordPulled ? "scale-y-110" : "group-hover:scale-y-105"
-            }`}
-            style={{
-              backgroundImage:
-                "repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(0,0,0,0.15) 3px, rgba(0,0,0,0.15) 6px)",
-            }}
-          />
-
-          {/* Wooden / Brass Acorn Drop Pendant */}
-          <div
-            className={`-mt-1 flex flex-col items-center transition-transform duration-500 ${
-              cordPulled
-                ? "translate-y-3 rotate-6"
-                : "group-hover:translate-y-1.5 group-hover:rotate-3"
-            }`}
-          >
-            {/* Brass Ferrule */}
-            <div className="w-2.5 h-2 rounded-t-sm bg-gradient-to-r from-amber-600 via-amber-300 to-amber-700 shadow-xs" />
-            {/* Wooden Acorn Body */}
-            <div className="w-4 h-6 rounded-full bg-gradient-to-br from-[#804627] via-[#5c3017] to-[#361a0b] shadow-[0_4px_10px_rgba(0,0,0,0.4)] border border-amber-900/50" />
-          </div>
-        </div>
-
-        {/* Ambient room lamp flare when pulled */}
-        <div
-          className={`absolute top-0 right-16 w-96 h-96 rounded-full pointer-events-none transition-opacity duration-700 blur-3xl -z-0 ${
-            ambientLight ? "opacity-70" : "opacity-0"
-          }`}
-          style={{
-            background: "radial-gradient(circle, rgba(251,191,36,0.25) 0%, transparent 70%)",
-          }}
-        />
-
         {/* ========================================================= */}
         {/* SECTION HEADER                                            */}
         {/* Exactly matching reference video:                         */}
