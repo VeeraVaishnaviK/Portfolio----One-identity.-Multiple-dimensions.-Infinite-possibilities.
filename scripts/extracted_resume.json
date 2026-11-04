@@ -1,0 +1,64 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": "VEERA  VAISHNAVI  K\n Chennai,  Tamil  Nadu,  India  |  +91-6383929687  |  vaishureddy26096@gmail.com  github.com/VeeraVaishnaviK |  linkedin.com/in/veera-vaishnavi \nEDUCATION\n \nSaveetha  School  of  Engineering,  Chennai  Expected  Graduation:  May  2028  Bachelor  of  Engineering,  Computer  Science  (Artificial  Intelligence)  CGPA:  9.22  /  10  Relevant  Coursework:  Data  Structures  and  Algorithms,  Object-Oriented  Programming,  Database  Management  Systems,  Operating  Systems  \nTECHNICAL  SKILLS\n \nLanguages:  Python,  Java,  JavaScript,  TypeScript,  C,  SQL  Frontend:  React,  Next.js  (App  Router),  HTML,  CSS,  Tailwind  CSS  Backend  and  APIs:  Node.js,  Express.js,  FastAPI,  REST  APIs,  Microservices  Architecture  Databases:  MongoDB  (Mongoose),  SQL  Cloud  and  Tools:  Google  Cloud  Platform,  Vercel,  Git,  GitHub,  VS  Code,  Android  Studio  AI  /  ML:  MobileNet,  KNN,  LangChain,  Google  Gemini  API  \nEXPERIENCE\n \nFounding  Software  Engineer  —  Lin's  InfoTech  (AI  Solutions  Startup)                                                                                   December  2024    –  Present  Chennai,  India  |  linsinfotech.in |  Next.js,  TypeScript,  Node.js,  Express.js,  Python,  FastAPI,  MongoDB  \n●\n \nArchitected\n \nand\n \nshipped\n \nthe\n \ncompany\n \nplatform\n \nas\n \na\n \nthree-layer\n \nmicroservices\n \napplication\n \nseparating\n \na\n \nNext.js\n \nclient,\n \na\n \nNode.js/Express\n \nREST\n \nAPI\n \nand\n \nan\n \nisolated\n \nPython/FastAPI\n \nservice,\n \nso\n \neach\n \nlayer\n \ndeploys\n \nindependently.\n \n●\n \nImplemented\n \nan\n \nExpress\n \nAPI\n \ngateway\n \nthat\n \nauthenticates\n \nand\n \nproxies\n \nAI\n \nrequests\n \nto\n \nthe\n \nFastAPI\n \nmicroservice,\n \nkeeping\n \nthe\n \nLLM\n \nservice\n \nand\n \nAPI\n \ncredentials\n \noff\n \nthe\n \npublic\n \nsurface.\n \n●\n \nBuilt\n \nREST\n \nmodules\n \nfor\n \nauthentication,\n \nsession\n \nhandling\n \nand\n \nlead\n \ncapture\n \non\n \nMongoose\n \nschemas\n \nfor\n \nMongoDB\n \nCRUD;\n \nhardened\n \nthe\n \nbackend\n \nwith\n \nHelmet,\n \na\n \nscoped\n \nCORS\n \npolicy\n \nand\n \nrequest\n \nrate\n \nlimiting.\n \n●\n \nIntegrated\n \nLangChain\n \nwith\n \nthe\n \nGoogle\n \nGemini\n \nAPI\n \nto\n \nserve\n \na\n \nstreaming\n \nchatbot\n \nand\n \nasynchronous\n \ndocument-generation\n \nendpoints.\n \n●\n \nDeployed\n \nthe\n \nfull\n \nstack\n \nto\n \nproduction\n \non\n \nVercel\n \nand\n \nown\n \nit\n \nend\n \nto\n \nend\n \n—\n \narchitecture\n \ndecisions,\n \ndebugging\n \nlive\n \nissues,\n \nand\n \ndynamic\n \nsitemap\n \nand\n \nmetadata\n \ngeneration.\n \nPROJECTS\n \nApex  Engineering  —  Production  B2B  Web  Platform                                                                                                                      apexengineering.org.in Next.js  App  Router,  React,  TypeScript,  Vercel  \n●\n \nEngineered\n \n62\n \nstatically\n \ngenerated\n \nroutes,\n \nincluding\n \ndynamic\n \nproduct\n \nand\n \nblog\n \nroutes,\n \nserved\n \nfrom\n \nVercel's\n \nedge\n \nnetwork\n \nto\n \nminimise\n \ntime\n \nto\n \nfirst\n \nbyte.\n \n●\n \nOptimized\n \nclient-side\n \nJavaScript\n \nby\n \nhydrating\n \nReact\n \nonly\n \nwhere\n \ncomponents\n \nare\n \ninteractive,\n \nkeeping\n \nstatic\n \npages\n \nfully\n \npre-rendered.\n \n●\n \nImplemented\n \nserver-side\n \nmetadata\n \ngeneration,\n \nautomated\n \ncanonical\n \nURLs,\n \ndynamic\n \nXML\n \nsitemap\n \ngeneration\n \nand\n \na\n \nreusable\n \nclient-side\n \nfilter\n \nover\n \n20+\n \nFAQ\n \nrecords.\n Nexacro  —  AI  Acrosome  Intactness  Analysis  Platform                                                                                                                                         nexacro.in Python,  React.js,  MongoDB,  Android  Studio  \n●\n \nDeveloped\n \na\n \nmachine\n \nlearning\n \nclassification\n \nsystem\n \ndistinguishing\n \nacrosome-intact\n \nfrom\n \ndamaged\n \nsperm\n \ncells,\n \nautomating\n \na\n \nmanual\n \nlaboratory\n \nassessment.\n \n●\n \nBuilt\n \nweb\n \nand\n \nAndroid\n \nclients\n \nagainst\n \na\n \nshared\n \nbackend\n \nso\n \na\n \nsingle\n \nanalysis\n \nservice\n \nsupports\n \nboth\n \nplatforms.\n Laundex  —  Laundry  Management  Web  Application                                                                                                                                            laundex.in React,  JavaScript,  MongoDB  \n●\n \nDesigned\n \nand\n \nshipped\n \na\n \nfull-stack\n \nbooking\n \nand\n \norder-tracking\n \nsystem\n \nfor\n \nhostel\n \nlaundry\n \noperations,\n \nwith\n \na\n \nresponsive\n \nmobile-first\n \nUI.\n \nRESEARCH\n \nIEEE  Conference  Paper,  ICFTS  2025  —  Published  in  IEEE  Xplore2025  \n●\n \nParkinson's\n \ndisease\n \nscreening\n \nfrom\n \nspiral\n \nhand\n \nsketches\n \nusing\n \nMobileNet\n \nwith\n \nKNN\n \nclassification;\n \nachieved\n \nover\n \n92%\n \naccuracy.\n \nLEADERSHIP  AND  ACHIEVEMENTS\n \nVice  President,  Google  Developer  Group  SIMATS                                                                                                                                         2025  –  Present  \n●\n \nRan\n \ntechnical\n \nworkshops\n \non\n \nCloud,\n \nFlutter\n \nand\n \nTensorFlow;\n \nmentored\n \nstudents\n \nthrough\n \nhackathons\n \nand\n \ncoding\n \nevents.\n Research  and  Innovation  Lead,  Hackathon  Club  SIMATS                                                                                                                             2025  –  Present  \n●\n \nDesigned\n \nreal-world\n \nproblem\n \nstatements\n \nfor\n \ncampus\n \nhackathons\n \nand\n \nmentored\n \nstudent\n \nteams\n \nthrough\n \nproject\n \ndevelopment.\n Innovative  Student  Ambassador,  Institution's  Innovation  Council  (IIC)                                                                                           Mar  2026  –  Present  Awards  \n●\n \n1st\n \nPrize,\n \n12-Hour\n \nHackathon\n \n—\n \nbuilt\n \na\n \ntutor–student\n \nmatching\n \nplatform\n \nwith\n \nreal-time\n \nchat\n \nand\n \ncourse\n \nenrollment\n \n(React,\n \nNode.js,\n \nMongoDB).\n \n●\n \n3rd\n \nPrize,\n \n24-Hour\n \nHackathon\n \n—\n \nbuilt\n \na\n \nfake\n \nnews\n \ndetection\n \nweb\n \napplication\n \nintegrating\n \nexternal\n \nclassification\n \nAPIs\n \n(Node.js,\n \nMongoDB).\n \n●\n \nBest\n \nPoster\n \nAward,\n \nTech\n \nStar\n \nSummit;\n \nTorch\n \nBearer\n \nAward,\n \n2025.\n "
+    }
+  ],
+  "links": [
+    {
+      "uri": "https://github.com/VeeraVaishnaviK",
+      "rect": [
+        184.85281,
+        718.85559,
+        295.30029,
+        729.96906
+      ]
+    },
+    {
+      "uri": "https://www.linkedin.com/in/veera-vaishnavi/",
+      "rect": [
+        303.96283,
+        718.85559,
+        427.14716,
+        729.96906
+      ]
+    },
+    {
+      "uri": "https://linsinfotech.in",
+      "rect": [
+        99.580971,
+        528.00726,
+        153.813141,
+        539.12073
+      ]
+    },
+    {
+      "uri": "https://apexengineering.org.in/",
+      "rect": [
+        486.1972,
+        394.03909,
+        574.51404,
+        405.15259
+      ]
+    },
+    {
+      "uri": "https://nexacro.in",
+      "rect": [
+        535.85052,
+        314.64468,
+        575.64038,
+        325.75818
+      ]
+    },
+    {
+      "uri": "https://laundex.in",
+      "rect": [
+        534.27954,
+        257.67731,
+        574.21796,
+        268.79077
+      ]
+    }
+  ]
+}
