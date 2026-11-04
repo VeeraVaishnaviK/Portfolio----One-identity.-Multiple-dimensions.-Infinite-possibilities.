@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --paper: #f4f2ee;
+  --card: #ffffff;
+  --ink: #0d0d0d;
+  --ink-2: #3a3a3a;
+  --mute: #77756f;
+  --faint: #a9a6a0;
+  --line: rgba(13, 13, 13, 0.1);
+  --soft: #e9e6e0;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --gutter: clamp(18px, 4vw, 64px);
+  --card-shadow: 0 10px 30px -10px rgba(13, 13, 13, 0.04);
+  --card-shadow-hover: 0 20px 40px -15px rgba(13, 13, 13, 0.08);
+}
+
+.dark {
+  --paper: #0e0e10;
+  --card: #171719;
+  --ink: #f4f2ee;
+  --ink-2: #d8d5ce;
+  --mute: #9e9b94;
+  --faint: #5e5b55;
+  --line: rgba(244, 242, 238, 0.12);
+  --soft: #222226;
+  --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  --card-shadow-hover: 0 20px 40px -15px rgba(0, 0, 0, 0.65);
+}
+
+@theme {
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+}
