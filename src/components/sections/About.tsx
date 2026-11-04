@@ -13,7 +13,6 @@ export function About() {
   const lanyardRef = useRef<HTMLDivElement>(null);
 
   // Pendulum swing state
-  // Swing pendulum tracking
   const swingAngle = useRef(0);
   const targetAngle = useRef(0);
   const velocity = useRef(0);
