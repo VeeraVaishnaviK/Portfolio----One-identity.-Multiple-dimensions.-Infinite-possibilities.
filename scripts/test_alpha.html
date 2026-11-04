@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: #f4f2ee;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .ghost {
+    position: absolute;
+    font-size: 140px;
+    font-weight: 900;
+    color: rgba(13, 13, 13, 0.12);
+  }
+  .video-container {
+    position: relative;
+    width: 450px;
+  }
+  video {
+    width: 100%;
+    /* No mix-blend-mode needed if it's truly alpha transparent! */
+  }
+</style>
+</head>
+<body>
+  <div class="ghost">VEERA</div>
+  <div class="video-container">
+    <video autoplay loop muted playsinline>
+      <source src="../public/hero/hero_alpha.webm" type="video/webm">
+    </video>
+  </div>
+</body>
+</html>
+

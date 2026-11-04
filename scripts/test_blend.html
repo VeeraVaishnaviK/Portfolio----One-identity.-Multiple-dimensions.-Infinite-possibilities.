@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: #f4f2ee;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .ghost {
+    position: absolute;
+    font-size: 120px;
+    font-weight: 900;
+    color: red;
+  }
+  .video-container {
+    position: relative;
+    width: 400px;
+  }
+  video {
+    width: 100%;
+    mix-blend-mode: multiply;
+  }
+</style>
+</head>
+<body>
+  <div class="ghost">VEERA</div>
+  <div class="video-container">
+    <video autoplay loop muted playsinline>
+      <source src="../public/hero/hero.webm" type="video/webm">
+      <source src="../public/hero/hero.mp4" type="video/mp4">
+    </video>
+  </div>
+</body>
+</html>
+
