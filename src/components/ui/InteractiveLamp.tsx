@@ -26,6 +26,37 @@ export function InteractiveLamp() {
   const isLight = theme === "light";
   const THRESHOLD = 48; // pixels required to trigger switch
 
+  // Check if user is scrolled into the doors section or inside a door view
+  const [inDoorSection, setInDoorSection] = useState(false);
+
+  useEffect(() => {
+    const checkDoorsSection = () => {
+      if (typeof document !== "undefined" && document.documentElement.getAttribute("data-in-doors") === "true") {
+        setInDoorSection(true);
+        return;
+      }
+      const doorsEl = document.getElementById("doors");
+      if (!doorsEl) {
+        setInDoorSection(false);
+        return;
+      }
+      const rect = doorsEl.getBoundingClientRect();
+      const isIn = rect.top < window.innerHeight && rect.bottom > 0;
+      setInDoorSection(isIn);
+    };
+
+    window.addEventListener("scroll", checkDoorsSection, { passive: true });
+    window.addEventListener("resize", checkDoorsSection, { passive: true });
+    window.addEventListener("doorStateChange", checkDoorsSection);
+    checkDoorsSection();
+
+    return () => {
+      window.removeEventListener("scroll", checkDoorsSection);
+      window.removeEventListener("resize", checkDoorsSection);
+      window.removeEventListener("doorStateChange", checkDoorsSection);
+    };
+  }, []);
+
   // 1. Live Time & Date updater
   useEffect(() => {
     setMounted(true);
@@ -251,12 +282,12 @@ export function InteractiveLamp() {
         </div>
       </div>
 
-      {/* 2. Interactive Pull Cord Container (Pops down on load, draggable downwards) */}
+      {/* 2. Interactive Pull Cord Container (Pops down on load, hidden in door sections) */}
       <div
-        className={`pointer-events-auto flex flex-col items-center origin-top transition-transform duration-700 ${
-          hasEntered
-            ? "animate-[ropeDropIn_1s_cubic-bezier(0.16,1,0.3,1)_forwards]"
-            : "-translate-y-full opacity-0"
+        className={`pointer-events-auto flex flex-col items-center origin-top transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+          hasEntered && !inDoorSection
+            ? "opacity-100 translate-y-0"
+            : "-translate-y-full opacity-0 pointer-events-none"
         }`}
         style={{
           transformOrigin: "top center",
