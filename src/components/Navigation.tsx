@@ -8,7 +8,7 @@ export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [activeSection, setActiveSection] = useState("about");
-  const [menuOpen, setMenuOpen] = useState(false); // Mobile menu drawer toggle
+  const [menuOpen, setMenuOpen] = useState(false);
   const navContainerRef = useRef<HTMLDivElement>(null);
   const [indicatorStyle, setIndicatorStyle] = useState<{ left: number; width: number }>({
     left: 0,
